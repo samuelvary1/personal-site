@@ -11,7 +11,6 @@
 // about supported directives.
 //
 //= require jquery
-//= require jquery.easing.min
 //= require jquery.min
 //= require contact_me
 //= require jquery_ujs
