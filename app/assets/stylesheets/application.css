@@ -12,6 +12,8 @@
  *
  *= require_tree .
  *= require_self
+ *= require bootstrap
+ *= require freelancer
  *= require freelancer.min
  *= require bootstrap.min
  */
