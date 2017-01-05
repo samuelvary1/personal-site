@@ -22,7 +22,7 @@ $(function() {
             }
             $.ajax({
                 type: "POST",
-                url: "../mail/contact_me.php",
+                url: "../assets/mail/contact_me.php",
                 data: {
                     name: name,
                     phone: phone,
