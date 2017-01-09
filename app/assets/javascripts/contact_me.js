@@ -21,8 +21,8 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                type: "POST",
-                url: "../assets/mail/contact_me.php",
+                type: "PUT",
+                url: "http://samuelvary.herokuapp.com/app/assets/mail/contact_me.php",
                 data: {
                     name: name,
                     phone: phone,
