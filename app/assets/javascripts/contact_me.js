@@ -22,7 +22,7 @@ $(function() {
             }
             $.ajax({
                 type: "PUT",
-                url: "https://samuelvary.herokuapp.com/app/assets/mail/contact_me.php",
+                url: "../assets/mail/contact_me.php",
                 data: {
                     name: name,
                     phone: phone,
