@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'contact_us', '~> 1.0.1'
 gem 'rails_12factor', group: :production
 gem 'pdfjs_rails'
 gem 'rack-cors', :require => 'rack/cors'
