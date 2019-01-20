@@ -13,19 +13,27 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li class="page-scroll">
-                    <a href="#page-top"></a>
-                </li>
+                    <a href="#about">About</a>
+                </li>     
                 <li class="page-scroll">
                     <a href="#portfolio">Projects</a>
                 </li>
-                <li class="page-scroll">
-                    <a href="#about">About</a>
-                </li>
-                <li class="page-scroll">
+                <li>
                     <a href="https://github.com/samuelvary1" target="_blank">GitHub</a>
                 </li>
+                <!-- turn this into a modal with thumbnails maybe -->           
                 <li class="page-scroll">
-                    <%= link_to "CV", image_path("resume.pdf"), target: "_blank" %>
+                    <a href="https://www.amazon.com/author/samvary">Books</a>
+                </li>                
+                <!-- short films section could also be cool with thumbnails, try to keep the whole thing on one page -->
+        <!--                 <li class="page-scroll">
+                    <a href="https://www.amazon.com/author/samvary">Short Films</a>
+                </li>  -->               
+                <li class="page-scroll">
+                    <a href="https://samscartoon.bandcamp.com/">Music</a>
+                </li>
+                <li>
+                    <%= link_to "Resume", image_path("resume.pdf"), target: "_blank" %>
                 </li>
             </ul>
         </div>
